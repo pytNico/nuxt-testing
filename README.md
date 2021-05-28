@@ -1,5 +1,7 @@
 # nuxt-testing
 
+## [Demo](https://pytnico.github.io/nuxt-testing/)
+
 ## Build Setup
 
 ```bash
