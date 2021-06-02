@@ -75,4 +75,8 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style>
+.masonry-item {
+  align-self: center;
+}
+</style>
