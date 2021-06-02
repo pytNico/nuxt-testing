@@ -64,8 +64,10 @@ export default {
         var rndInt2 = Math.floor(Math.random() * (500 - 500 + 1) + 500)
         this.items.push({
           title: `Item ${this.items.length}`,
-          imgSrc: `https://via.placeholder.com/${rndInt1}x${rndInt2}`,
-          content: 'Content',
+          //imgSrc: `https://via.placeholder.com/${rndInt1}x${rndInt2}`,
+          imgSrc: `https://picsum.photos/${rndInt1}/${rndInt2}?random`,
+          content:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam leo neque, scelerisque ut tellus non, posuere pretium leo. Donec laoreet.',
         })
       }
     },
